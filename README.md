@@ -26,3 +26,8 @@ For more information about using PHP on Heroku, see these Dev Center articles:
 
 - [Getting Started with PHP on Heroku](https://devcenter.heroku.com/articles/getting-started-with-php)
 - [PHP on Heroku](https://devcenter.heroku.com/categories/php)
+
+## PS
+
+While deploying any PHP application on heroku make sure to add file to one directory (web in this case) because heroku doesn't serve file from root.
+
